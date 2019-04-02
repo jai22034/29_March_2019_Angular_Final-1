@@ -36,10 +36,8 @@ employeeform:FormGroup;
      
     });
 
-     
+
   }
-
-
   ngOnInit() {
   this.employeeform=this.employeeservice.form;
     if(localStorage.getItem('isLoggedIn')=="true"){

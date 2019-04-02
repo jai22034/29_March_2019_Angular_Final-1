@@ -143,6 +143,9 @@ onSearchClear() {
     }
    
   }
+  onInfo(){
+    console.log("hello");
+  }
  
   oncreate()
   {
