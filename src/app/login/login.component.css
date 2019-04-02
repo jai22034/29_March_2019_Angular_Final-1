@@ -1,0 +1,54 @@
+.bg {
+  /* The image used */
+  background-image: url("../../assets/mountain.jpg");
+  /* Full height */
+  height: 820px;
+  margin: 0; 
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.cbox{
+  float: left;
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: 1;
+     background-color: #222332;
+     padding: 5px;
+     color: #FFFFFF;
+     font-weight: bold;
+     margin-top: -280px;
+     width: 410px;
+     height: 370px;
+     margin-left: 500px;
+}
+.in{
+    margin-top: 110px;
+}
+.user{
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  margin-top: 200px;
+  width: 400px;
+  height: 310px;
+  margin-left: 630px;
+ 
+}
+.button1{
+    margin-right: 15px;
+}
+.button2{
+  margin-right: 20px;
+}
+.user img{
+height: 90px;
+width: 90px;
+z-index: 2;
+}
+.combo_button{
+  margin-top: 30px;
+}
