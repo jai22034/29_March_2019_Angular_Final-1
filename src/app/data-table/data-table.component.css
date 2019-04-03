@@ -1,0 +1,22 @@
+
+.header {
+    color : #fff;
+    margin-top: 20px;
+}
+.btn {
+    margin-top:20px;
+}
+
+  th.mat-sort-header-sorted {
+    color: blue;
+  }
+ .btn btn-primary {
+     margin-left: 0;
+ } 
+ table {
+    width: 100%;
+  }
+  
+  th {
+    text-align: left;
+  }

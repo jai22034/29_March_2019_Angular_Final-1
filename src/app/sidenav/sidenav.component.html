@@ -1,0 +1,28 @@
+<div class="create">
+    <h4 class="modal-title">Add Expense</h4>
+           <form [formGroup]="service.form" (ngSubmit)="Add()" >
+            <mat-form-field>
+              <input formControlName="merchant" matInput placeholder="Merchant*">
+              <mat-error>This field is mandatory.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+              <input formControlName="total" matInput placeholder="Total">
+              <mat-error>Invalid email address.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+              <input formControlName="status" matInput placeholder="status">
+              <mat-error>Invalid email address.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+              <input formControlName="date" matInput placeholder="date">
+              <mat-error>Invalid email address.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+              <input formControlName="comment" matInput placeholder="comment">
+              <mat-error>Invalid email address.</mat-error>
+            </mat-form-field>
+           <button mat-raised-button color="primary" type="submit" [disabled]="service.form.invalid">Submit</button>
+          <button mat-raised-button color="warn" (click)="onClear()">Clear</button>
+            </form>
+</div>
+       
